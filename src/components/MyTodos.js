@@ -48,7 +48,6 @@ class MyTodos extends React.Component{
 				<Header />
 				<Route
 					exact 
-				  path='/'
 				  render={() => <React.Fragment> 
 				  	<FormAdd todo={this.addTodo}/>
 				    <Todos todos={this.state.todos} change={this.change} delTodo={this.delTodo}/>
